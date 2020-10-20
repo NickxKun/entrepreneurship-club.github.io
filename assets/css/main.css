@@ -2323,11 +2323,6 @@ input, select, textarea {
 
 		}
 
-.flip-card-container {
-  background-color: transparent;
-  margin: auto;
-}
-
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
@@ -2335,6 +2330,7 @@ input, select, textarea {
   height: 400px;
   display:inline-block;
   margin: auto 5%;
+  margin-bottom: 5%;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
