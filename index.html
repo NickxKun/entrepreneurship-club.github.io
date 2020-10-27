@@ -3,7 +3,7 @@
 	<head>
 		<title>The Entrepreneurship Club</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=2, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -14,7 +14,12 @@
 				<!-- Replace this with the animation -->
 				<h1>The Entrepreneurship Club</h1>
 				<nav>
-					<ul>
+                    <div class="hamburger">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line"></div>
+                    </div>
+					<ul class="nav-links">
 						<li><a href="#intro">Home</a></li>
 						<li><a href="#one">Events</a></li>
 						<li><a href="#two">Community</a></li>
@@ -44,12 +49,8 @@
 					<header>
 						<h2>Events</h2>
 					</header>
-					<div id="eventspara">
+					<div>
 						<p>Take a look at the plethora of events that are taking place right now!! </br><a href="past_events.html">Take a peek at Events</a></p>
-					</div>
-					<div id="eventimg">
-
-						<img src="images/event_main_img.png" alt="Event Img" style="object-fit: contain; height: 600px;">
 					</div>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
@@ -149,7 +150,8 @@
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+            <script src="assets/js/main.js"></script>
+            <script src="assets/js/app.js"></script>
 
 	</body>
 </html>
