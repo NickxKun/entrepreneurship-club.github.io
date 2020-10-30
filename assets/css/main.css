@@ -2210,6 +2210,30 @@ input, select, textarea {
 			background-attachment: scroll !important;
 		}
 
+		.contentboxright {
+			overflow: auto;
+			margin-top: 30px;
+			margin-bottom: 15px;
+		}
+
+		.contentboxright img {
+			float: right;
+			max-width: 100%;
+			margin: 0px 15px 15px 0px;
+			border-radius: 10px;
+		}
+
+		.contentboxleft {
+			overflow: auto;
+		}
+
+		.contentboxleft img {
+			float: left;
+			max-width: 100%;
+			margin: 0px 15px 15px 0px;
+			border-radius: 10px;
+		}
+
 		@media screen and (max-width: 1920px) {
 
 			.main.style2 .content {
@@ -2403,6 +2427,24 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
+/* MemPrime */
+
+	#mempaid {
+		background: url("images/overlay.png"), url("../../images/mem_paid.jpeg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/* memfree */
+
+	#memfree {
+		background-color: #252525;
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
 /* One */
 
 	#one {
@@ -2516,7 +2558,16 @@ input, select, textarea {
 	background-color: white;
 	height: auto;
 	width: 90%;
-	border-radius: 20px;
+	border-radius: 10px;
 	box-shadow: 0px 10px 53px -25px rgba(0,0,0,0.75);
 }
+
+.line_divider {
+	width: auto;
+	height: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: #F0F0F0;
+}
+
 
