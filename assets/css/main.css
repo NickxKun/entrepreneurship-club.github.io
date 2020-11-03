@@ -2243,6 +2243,18 @@ input, select, textarea {
 			border-radius: 10px;
 		}
 
+		.team-card {
+		  background-color: white;
+		  max-width: 300px;
+		  width: 100%;
+		  height: auto;
+		  display:inline-block;
+		  margin: auto;
+		  margin-left: 5%;
+		  margin-right: 5%;
+		  margin-bottom: 5%;
+		}
+
 		.flip-card-image {
 			max-width:300px;
 			width: 100%;
@@ -2305,7 +2317,6 @@ input, select, textarea {
 			background-color: white;
 			height: auto;
 			width: 90%;
-			border-radius: 10px;
 			box-shadow: 0px 10px 53px -25px rgba(0,0,0,0.75);
 		}
 
@@ -2320,6 +2331,21 @@ input, select, textarea {
 		.event-desc {
 			color: black;
 			width: 45%;
+		}
+
+		.stroke {
+		  stroke-linecap: round;
+		}
+
+		.timeline {
+			margin: auto;
+		  	width: 90%;
+		  	height: 20px;
+		  	background-color: orange;
+		  	border-radius: 10px;
+		  	display: flex;
+		  	justify-content: center;
+		  	align-items: center;
 		}
 
 		@media screen and (max-width: 1920px) {
@@ -2376,6 +2402,11 @@ input, select, textarea {
 			}
 
 			.flip-card {
+			  margin-left: 0px;
+			  margin-right: 0px;
+			}
+
+			.team-card {
 			  margin-left: 0px;
 			  margin-right: 0px;
 			}
@@ -2558,6 +2589,15 @@ input, select, textarea {
 
 	#two {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+/* Three */
+
+	#three {
+		background: url("images/overlay.png"), url("../../images/three.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
