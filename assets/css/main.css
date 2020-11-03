@@ -2261,6 +2261,18 @@ input, select, textarea {
 			height: auto;
 		}
 
+		.overlay-image {
+			position: absolute;
+			z-index: 1;
+			background: url("images/overlay.png"), url("../../images/divbg.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
+			height: 150px;
+			max-width: 300px;
+			width: 100%;
+		}
+
 
 		.flip-card {
 		  background-color: transparent;
@@ -2341,11 +2353,15 @@ input, select, textarea {
 			margin: auto;
 		  	width: 90%;
 		  	height: 20px;
-		  	background-color: orange;
+			background: url("images/overlay.png"), url("../../images/timeline_gradient.jpg");
+			background-size: 256px 256px, cover;
+			background-attachment: fixed, fixed;
+			background-position: top left, center center;
 		  	border-radius: 10px;
 		  	display: flex;
 		  	justify-content: center;
 		  	align-items: center;
+
 		}
 
 		@media screen and (max-width: 1920px) {
@@ -2588,10 +2604,10 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("../../images/two.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 /* Three */
