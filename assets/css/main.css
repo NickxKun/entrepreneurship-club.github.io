@@ -2425,6 +2425,7 @@ input, select, textarea {
 			.team-card {
 			  margin-left: 0px;
 			  margin-right: 0px;
+			  margin-bottom: 3rem;
 			}
 
 			.event-desc {
