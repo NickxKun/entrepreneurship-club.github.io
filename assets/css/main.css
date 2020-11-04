@@ -2403,7 +2403,7 @@ input, select, textarea {
 		.container .date {
 		  	position: absolute;
 		  	display: inline-block;
-		  	top: calc(50% - 12px);
+		  	top: calc(50% - 20px);
 		  	text-align: center;
 		  	font-size: 14px;
 		  	font-weight: bold;
@@ -2414,11 +2414,11 @@ input, select, textarea {
 		}
 
 		.container.left .date {
-		  	right: -75px;
+		  	right: -80px;
 		}
 
 		.container.right .date {
-		  	left: -75px;
+		  	left: -80px;
 		}
 
 		.container .content {
@@ -2473,6 +2473,7 @@ input, select, textarea {
 		  .container.right .date {
 		    right: auto;
 		    left: 15px;
+		  	top: calc(50% - 12px);
 		  }
 
 		  .container.left .content,
@@ -2712,6 +2713,15 @@ input, select, textarea {
 		background-attachment: fixed;
 		background-position: center center;
 	}
+
+
+/* MemPrime */
+
+	#mempaid {
+		background: url("../../images/mem_paid.jpeg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 
 /* Contact */
 
