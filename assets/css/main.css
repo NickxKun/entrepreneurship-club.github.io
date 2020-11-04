@@ -2657,11 +2657,11 @@ input, select, textarea {
 /* Main Events Custon Script */
 
 	#spotlight {
-		background: url("images/overlay.png"), url("../../images/spotlight.jpeg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background: url("../../images/spotlight.jpeg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 /* Past Events Custom Script */
@@ -2674,49 +2674,25 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
-/* MemPrime */
-
-	#mempaid {
-		background: url("images/overlay.png"), url("../../images/mem_paid.jpeg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/* memfree */
-
-	#memfree {
-		background-color: #252525;
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
 /* guest/winners */
 
 	#gwpage {
 		background-color: #252525;
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
 	}
 
 /* Sponsors */
 
 	#sponsors {
 		background-color: #303030;
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
 	}
 
 /* One */
 
 	#one {
-		background: url("images/overlay.png"), url("../../images/one.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("../../images/one.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 /* Two */
@@ -2731,10 +2707,10 @@ input, select, textarea {
 /* Three */
 
 	#three {
-		background: url("images/overlay.png"), url("../../images/three.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
+		background: url("../../images/three.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 /* Contact */
@@ -2742,9 +2718,11 @@ input, select, textarea {
 	#contact {
 		overflow: hidden;
 		padding-bottom: 0;
+
 	}
 
 		#contact .box {
+			box-shadow: 0px 10px 53px -25px rgba(0,0,0,0.75);
 			-moz-transition: -moz-transform 1s ease;
 			-webkit-transition: -webkit-transform 1s ease;
 			-ms-transition: -ms-transform 1s ease;
