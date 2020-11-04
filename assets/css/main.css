@@ -2350,18 +2350,134 @@ input, select, textarea {
 		}
 
 		.timeline {
-			margin: auto;
-		  	width: 90%;
-		  	height: 20px;
-			background: url("images/overlay.png"), url("../../images/timeline_gradient.jpg");
-			background-size: 256px 256px, cover;
-			background-attachment: fixed, fixed;
-			background-position: top left, center center;
-		  	border-radius: 10px;
-		  	display: flex;
-		  	justify-content: center;
-		  	align-items: center;
+		  position: relative;
+		  width: 100%;
+		  max-width: 1140px;
+		  margin: 0 auto;
+		  padding: 15px 0;
+		}
 
+		.timeline::after {
+		  content: '';
+		  position: absolute;
+		  width: 2px;
+		  background: #008b8b;
+		  top: 0;
+		  bottom: 0;
+		  left: 50%;
+		  margin-left: -1px;
+		}
+
+		.container {
+		  padding: 15px 30px;
+		  position: relative;
+		  background: inherit;
+		  width: 50%;
+		}
+
+		.container.left {
+		  left: 0;
+		}
+
+		.container.right {
+		  left: 50%;
+		}
+
+		.container::after {
+		  content: '';
+		  position: absolute;
+		  width: 16px;
+		  height: 16px;
+		  top: calc(50% - 8px);
+		  right: -8px;
+		  background: #ffffff;
+		  border: 2px solid #008b8b;
+		  border-radius: 16px;
+		  z-index: 1;
+		}
+
+		.container.right::after {
+		  left: -8px;
+		}
+
+		.container .date {
+		  	position: absolute;
+		  	display: inline-block;
+		  	top: calc(50% - 12px);
+		  	text-align: center;
+		  	font-size: 14px;
+		  	font-weight: bold;
+		  	color: #008b8b;
+		  	text-transform: uppercase;
+		  	letter-spacing: 1px;
+		  	z-index: 1;
+		}
+
+		.container.left .date {
+		  	right: -75px;
+		}
+
+		.container.right .date {
+		  	left: -75px;
+		}
+
+		.container .content {
+		  	padding: 30px 30px 30px 30px;
+		  	background: url("../../images/timeline_gradient.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: center center;
+		  	position: relative;
+		}
+
+		.container.right .content {
+		  	padding: 30px 30px 30px 30px;
+		}
+
+		.container .content h2 {
+		  	margin: 0 0 10px 0;
+		  	font-size: 18px;
+		  	font-weight: normal;
+		  	color: #fff;
+		}
+
+		.container .content p {
+		  	margin: 0;
+		  	font-size: 16px;
+		  	line-height: 22px;
+		  	color: #fff;
+		}
+
+		@media (max-width: 736px) {
+		  .timeline::after {
+		    	left: 90px;
+		  }
+
+		  .container {
+		    	width: 100%;
+		    	padding-left: 120px;
+		    	padding-right: 0px;
+		  }
+
+		  .container.right {
+		    left: 0%;
+		  }
+
+		  .container.left::after,
+		  .container.right::after {
+		    left: 82px;
+		  }
+
+		  .container.left .date,
+		  .container.right .date {
+		    right: auto;
+		    left: 15px;
+		  }
+
+		  .container.left .content,
+		  .container.right .content {
+		    padding: 30px 30px 30px 30px;
+		  }
 		}
 
 		@media screen and (max-width: 1920px) {
