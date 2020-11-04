@@ -2439,6 +2439,7 @@ input, select, textarea {
 		  	font-size: 18px;
 		  	font-weight: normal;
 		  	color: #fff;
+		  	font-weight: bold;
 		}
 
 		.container .content p {
