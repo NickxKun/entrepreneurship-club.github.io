@@ -2342,7 +2342,8 @@ input, select, textarea {
 
 		.event-desc {
 			color: black;
-			width: 45%;
+			margin: auto;
+			padding-top: 3rem;
 		}
 
 		.stroke {
@@ -2575,11 +2576,6 @@ input, select, textarea {
 			  margin-bottom: 3rem;
 			}
 
-			.event-desc {
-				color: black;
-				width: 90%;
-			}
-
 			.winner_section {
 				width: 90%;
 				margin-bottom: 5vh;
@@ -2774,7 +2770,7 @@ input, select, textarea {
 	}
 
 		#contact .box {
-			box-shadow: 0px 10px 53px -25px rgba(0,0,0,0.75);
+			box-shadow: 0px 10px 53px -25px rgba(0,0,0,0.5);
 			-moz-transition: -moz-transform 1s ease;
 			-webkit-transition: -webkit-transform 1s ease;
 			-ms-transition: -ms-transform 1s ease;
