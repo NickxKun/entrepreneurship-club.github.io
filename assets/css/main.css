@@ -2421,7 +2421,7 @@ input, select, textarea {
 		  	left: -80px;
 		}
 
-		.container .content {
+		.container .content_timeline {
 		  	padding: 30px 30px 30px 30px;
 		  	background: url("../../images/timeline_gradient.jpg");
 			background-size: cover;
@@ -2430,11 +2430,11 @@ input, select, textarea {
 		  	position: relative;
 		}
 
-		.container.right .content {
+		.container.right .content_timeline {
 		  	padding: 30px 30px 30px 30px;
 		}
 
-		.container .content h2 {
+		.container .content_timeline h2 {
 		  	margin: 0 0 10px 0;
 		  	font-size: 18px;
 		  	font-weight: normal;
@@ -2442,7 +2442,7 @@ input, select, textarea {
 		  	font-weight: bold;
 		}
 
-		.container .content p {
+		.container .content_timeline p {
 		  	margin: 0;
 		  	font-size: 16px;
 		  	line-height: 22px;
@@ -2764,7 +2764,7 @@ input, select, textarea {
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
-
+	}
 /* Contact */
 
 	#contact {
