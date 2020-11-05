@@ -2464,6 +2464,13 @@ input, select, textarea {
 			display: flex;
 		}
 
+		.white_box_content {
+			padding: 50px;
+			padding-bottom: 0px;
+			margin: auto;
+			color: black;
+		}
+
 		@media (max-width: 736px) {
 		  .timeline::after {
 		    	left: 90px;
@@ -2494,6 +2501,13 @@ input, select, textarea {
 		  .container.left .content,
 		  .container.right .content {
 		    padding: 30px 30px 30px 30px;
+		  }
+
+		  .white_box_content {
+			padding: 10%;
+			padding-bottom: 0px;
+			margin: auto;
+			color: black;
 		  }
 		}
 
