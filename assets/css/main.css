@@ -2316,13 +2316,29 @@ input, select, textarea {
 		  color: black;
 		}
 
+		.flip-card-front p, h1 {
+			line-height: 1.7em;
+			font-size: 16pt;
+		}
+
 		/* Style the back side */
 		.flip-card-back {
-		  background-color: white;
-		  color: black;
-		  align-items: center;
-		  margin: auto;
-		  transform: rotateY(180deg);
+			line-height: 1.5em;
+			font-size: 13pt;
+			background-color: white;
+		  	color: black;
+		  	transform: rotateY(180deg);
+		}
+
+		.flip-card-back h1 {
+			font-size: 20pt;
+		}
+
+		.center {
+		  position: absolute;
+		  top: 50%;
+		  -ms-transform: translate(0, -50%);
+		  transform: translate(0, -50%);
 		}
 
 		/* Main Event Highliting Box */
