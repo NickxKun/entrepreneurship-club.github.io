@@ -578,13 +578,6 @@ input, select, textarea {
 		    	float: left;
 		    	border-radius: 5px;
 		    }
-		    #spotlightimageboxmainpage {
-		    	width: 300px;
-		    	height: 300px;
-		    	object-fit: cover;
-		    	float: left;
-		    	border-radius: 5px;
-		    }
 		}
 
 		@media only screen and (max-width: 1025px) {
@@ -601,24 +594,11 @@ input, select, textarea {
 		    #spotlightbox {
 		    	padding-left: 350px; text-align: left;
 		    }
-		    #spotlightboxmainpage {
-		    	padding-left: 350px; text-align: left;
-		    }
 		}
 
 		@media only screen and (max-width: 1025px) {
 		    #spotlightbox {
 		    	text-align: left;
-		    }
-		    #spotlightimageboxmainpage {
-		    	display: none;
-		    }
-		}
-
-		@media only screen and (max-width: 736px) {
-
-		    #spotlightboxmainpage {
-		    	text-align: center;
 		    }
 		}
 
