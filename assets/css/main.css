@@ -2316,7 +2316,12 @@ input, select, textarea {
 		  color: black;
 		}
 
-		.flip-card-front p, h1 {
+		.flip-card-front p {
+			line-height: 1.7em;
+			font-size: 16pt;
+		}
+
+		.flip-card-front h1 {
 			line-height: 1.7em;
 			font-size: 16pt;
 		}
