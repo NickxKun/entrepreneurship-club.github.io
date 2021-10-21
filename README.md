@@ -1,1 +1,1 @@
-entrepreneurshipclub.netlify.app
+# entrepreneurshipclub.netlify.app
