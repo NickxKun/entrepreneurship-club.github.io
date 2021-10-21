@@ -1,1 +1,1 @@
-# entrepreneurship-club.github.io
+entrepreneurshipclub.netlify.app
